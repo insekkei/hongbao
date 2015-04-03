@@ -52,6 +52,7 @@ header p{
     height:100%;
     top:0;
     background:rgba(0,0,0,.8);
+    display: none;
 }
 #hongbao a{
     display:inline-block;
@@ -72,10 +73,10 @@ header p{
 #hongbao a:nth-child(3n){
     left:60%;
     top:-15%;
-    -webkit-animation:translation 2s 2s  linear;
+    -webkit-animation:translation 3s 2s  linear;
 }
 #hongbao a:nth-child(5n){
-    -webkit-animation:translation 2s 5s  linear;
+    -webkit-animation:translation 5s 5s  linear;
 }
 @-webkit-keyframes translation{ 
 0%{ 
