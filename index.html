@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <!-- Standard Meta -->
-  <meta charset="utf-8" />
+      <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="css/base.css">
@@ -12,6 +11,9 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
   <title>抢红包！</title>
+    <script>
+
+    </script>
 </head>
 <body>
     <div class="wrapper clearfix">
@@ -20,15 +22,18 @@
         <p>已抢到<span id="num">0</span>个</p>
       </header>
       <section>
-        <a href="" class="get-hb"><span>抢红包！</span></a>
+            <div id="first">
+                <a href="#"  class="get-hb" onclick="start()"><span>抢红包！</span></a>
+            </div>
       </section>
-      <section id="hongbao">
 
-      </section>
     </div>
-        <script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/index.js"></script>
+
+    <div id="host">
+    </div>
+<script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/index.js"></script>
+
 
 </body>
-
 </html>
