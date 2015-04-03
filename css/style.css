@@ -60,25 +60,18 @@ header p{
     background:transparent url(../images/hongbao.png) no-repeat;
     background-size:contain;
 }
-@-webkit-keyframes translation{ 
-0%{ 
-transform:translateY(0);
--webkit-transform:translateY(0);
-} 
 
-100%{
-   transform:translateY(800px);
-   -webkit-transform:translateY(800px);
+.result{
+    position:absolute;
+    display:inline-block;
+    width:200px;
+    bottom:35%;
+    left:50%;
+    margin-left:-100px;
+    color:#fff;
+    text-align:center;
 }
-} 
-@keyframes translation{ 
-0%{ 
-   transform:translateY(0);
-   -webkit-transform:translateY(0);
-} 
-
-100%{ 
-   transform:translateY(800px);
-   -webkit-transform:translateY(800px);
-} 
+.result span,.result strong{
+    color:#FBE053;
+    font-size:1.2em;
 }
