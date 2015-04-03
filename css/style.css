@@ -59,24 +59,25 @@ header p{
     width:80px;
     height:80px;
     position:absolute;
-    left:5%;
-    top:-25%;
+    top:-120px;
     background:url(../images/hongbao.png) no-repeat;
     background-size:auto 80px;
     -webkit-animation:translation 10s linear;
 }
+#hongbao a.visited{
+	display:none;
+}
 #hongbao a:nth-child(2n){
-    left:30%;
-    top:-20%;
-    -webkit-animation:translation 2s 1s  linear;
+    left:30% !important;
 }
 #hongbao a:nth-child(3n){
-    left:60%;
-    top:-15%;
-    -webkit-animation:translation 3s 2s  linear;
+    left:10% !important;
 }
 #hongbao a:nth-child(5n){
-    -webkit-animation:translation 5s 5s  linear;
+    left:6% !important;
+}
+#hongbao a:nth-child(7n){
+    left:20% !important;
 }
 @-webkit-keyframes translation{ 
 0%{ 
